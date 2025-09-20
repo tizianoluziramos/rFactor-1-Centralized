@@ -1,8 +1,20 @@
 [
-  { "name": "F1 1951", "url": "https://t.me/rf1f1mods/2" },
-  { "name": "F1 1955", "url": "https://t.me/rf1f1mods/3" },
-  { "name": "F1 1937", "url": "https://t.me/rf1f1mods/4" },
-  { "name": "F1 1958", "url": "https://t.me/rf1f1mods/5" },
+  {
+    "name": "F1 1951",
+    "url": "https://t.me/rf1f1mods/2"
+  },
+  {
+    "name": "F1 1955",
+    "url": "https://t.me/rf1f1mods/3"
+  },
+  {
+    "name": "F1 1937",
+    "url": "https://t.me/rf1f1mods/4"
+  },
+  {
+    "name": "F1 1958",
+    "url": "https://t.me/rf1f1mods/5"
+  },
   { "name": "F1 1960", "url": "https://t.me/rf1f1mods/6" },
   { "name": "F1 1961 & 1962", "url": "https://t.me/rf1f1mods/7" },
   { "name": "F1 1964", "url": "https://t.me/rf1f1mods/8" },

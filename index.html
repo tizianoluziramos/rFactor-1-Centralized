@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>rFactor 1 Mods Hub</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="shortcut icon" href="favicon.webp" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#main-content">Saltar al contenido</a>
+
+    <!-- HEADER -->
+    <header class="app-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="44"
+              height="44"
+              fill="currentColor"
+            >
+              <path
+                d="M3 12l2-2h14l2 2-2 2H5l-2-2zM6 16l2 2h8l2-2"
+                stroke="red"
+                stroke-width="2"
+                fill="none"
+              />
+            </svg>
+          </div>
+          <div>
+            <h1 class="app-title">rFactor 1 Mods Hub</h1>
+            <p class="subtitle">Tracks · Mods · Tools para tu simulador</p>
+          </div>
+        </div>
+
+        <!-- NAV -->
+        <div class="nav-wrap">
+          <nav
+            id="navbar"
+            class="nav"
+            aria-label="Categorías principales"
+          ></nav>
+          <nav id="submenu" class="submenu" aria-label="Subcategorías"></nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- MAIN -->
+    <main id="main-content" class="main-content container" role="main">
+      <div class="welcome card" id="welcome-card">
+        <div class="welcome-grid">
+          <div class="welcome-text">
+            <h2>🏎️ Bienvenido a rFactor 1 Mods Hub</h2>
+            <p>
+              Explora categorías arriba para descubrir mods, circuitos y
+              utilidades. Todo en un solo lugar.
+            </p>
+            <div class="cta-row">
+              <button
+                class="ghost"
+                onclick="document.querySelector('#navbar button')?.click()"
+              >
+                Empezar
+              </button>
+            </div>
+          </div>
+          <div class="welcome-art" aria-hidden="true">
+            <div class="checkered"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="app-footer">
+      <div class="container">
+        <p id="footer-year">
+          © <span id="year"></span> rFactor 1 Mods Hub — Comunidad Racing
+        </p>
+        <p class="muted">
+          Creado por
+          <strong
+            ><a
+              href="https://tizianoluziramos.github.io"
+              style="
+                color: black;
+                text-decoration: underline;
+                text-decoration-color: black;
+              "
+            >
+              Tiziano Tomas Luzi Ramos
+            </a>
+          </strong>
+        </p>
+      </div>
+    </footer>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
