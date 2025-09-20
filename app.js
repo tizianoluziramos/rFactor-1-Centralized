@@ -204,7 +204,7 @@ async function loadSubcategory(subcategory) {
     const baseUrl = `${window.location.protocol}//${window.location.host}`;
 
     const res = await fetch(
-      `${baseUrl}/rFactor-1-Centralized/${subcategory.endpoint}`
+      `${baseUrl}/rFactor-1-Centralized/api/${subcategory.endpoint}`
     );
 
     if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`);
